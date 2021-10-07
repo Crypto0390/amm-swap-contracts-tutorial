@@ -36,16 +36,16 @@ const config: HardhatUserConfig = {
   },
   networks: {
     hardhat: {},
-    bsctestnet:{
-      url: 'https://data-seed-prebsc-1-s1.binance.org:8545',
-      chainId: 97,
-      accounts: [SIGNER_PRIVATE_KEY],
-    },
-    bscmainnet:{
-      url: 'https://bsc-dataseed.binance.org',
-      chainId: 56,
-      accounts: [SIGNER_PRIVATE_KEY],
-    },
+    // bsctestnet:{
+    //   url: 'https://data-seed-prebsc-1-s1.binance.org:8545',
+    //   chainId: 97,
+    //   accounts: [SIGNER_PRIVATE_KEY],
+    // },
+    // bscmainnet:{
+    //   url: 'https://bsc-dataseed.binance.org',
+    //   chainId: 56,
+    //   accounts: [SIGNER_PRIVATE_KEY],
+    // },
   },
   namedAccounts:{
     deployer: 0,
